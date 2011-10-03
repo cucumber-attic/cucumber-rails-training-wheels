@@ -9,9 +9,10 @@ Gem::Specification.new do |s|
   s.email       = 'cukes@googlegroups.com'
   s.homepage    = "http://cukes.info"
 
+  s.add_runtime_dependency('cucumber-rails', '>= 1.1.1')
+
   s.add_development_dependency('rails', '>= 3.1.0')
   s.add_development_dependency('aruba', '>= 0.4.6')
-  s.add_development_dependency('ammeter', '>= 0.1.2')
   s.add_development_dependency('rspec', '>= 2.6.0')
   s.add_development_dependency('rspec-rails', '>= 2.6.1')
   s.add_development_dependency('database_cleaner', '>= 0.6.7')

@@ -1,9 +1,9 @@
-module Cucumber
+module CucumberRailsTrainingWheels
   class InstallGenerator < ::Rails::Generators::Base
     source_root File.expand_path("../templates", __FILE__)
-    argument     :language,      :type => :string,  :banner => "LANG", :optional => true
+    argument :language, :type => :string,  :banner => "LANG", :optional => true
 
-    def create_eev_steps
+    def create_env_steps
       empty_directory 'features/step_definitions'
 
       if language

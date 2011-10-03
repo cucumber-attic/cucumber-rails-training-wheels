@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), 'named_arg')
 
-module Cucumber
+module CucumberRailsTrainingWheels
   class FeatureGenerator < ::Rails::Generators::NamedBase
     source_root File.expand_path("../templates", __FILE__)
 
