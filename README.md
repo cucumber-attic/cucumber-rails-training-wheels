@@ -22,8 +22,8 @@ Or generate a feature file:
 Congratulations! You have created Cucumber features that no stakeholder will ever want to read. Features that don't express
 any business value at all, but hey - they are green! Good luck maintaining them. You have become an [MDD](http://skillsmatter.com/podcast/home/refuctoring-your-cukes) pro!
 
-## Pull requests
+## Bug reports and Pull requests
 
 Please don't bother. This gem exists for the sole purpose of helping people who are reading books or blogs that were written prior to Cucumber-Rails 1.1.0. I really want this code to go away and be forgotten.
 
-If something is broken, just fork it and use your own fork.
+If something is broken, just fork it, fix it and use your own fork.
